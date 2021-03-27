@@ -1,23 +1,13 @@
 
-.Rectangle-613 {
-    width: 1440px;
-    height: 191px;
+.menu {
+    width: 100%;
+    height: 200px;
     flex-grow: 0;
     margin: 0 0 80px;
-    /*padding: 65px 120px 73px;*/
     background-color: #f3f3f3;
   }
 
-  .Vector-laranja {
-    width: 11px;
-    height: 21px;
-    flex-grow: 0;
-    margin: 11px 36px 3px 0;
-    object-fit: contain;
-    background-color: #ff4f00;
-  }
-
-  .Criar-evento {
+  .criar-evento {
     width: 202px;
     height: 35px;
     flex-grow: 0;
@@ -33,13 +23,19 @@
     color: #3f3f3f;
   }
 
-  .Etapas{
-    width: 760px;
-    height: 53px;
-    display: inline;
-    margin: 0 161px 0 30px;
+  .etapas{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 24px 30px;
     padding: 11px 71px 12px 19px;
     background-color: #ffffff;
+    border-radius: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    flex-basis: 0;
+    flex-grow: 1;
   }
   
   .Group-112 {
@@ -58,7 +54,7 @@
     object-fit: contain;
   }
 
-  .titulo {
+  .text-title {
     width: 591px;
     height: 142px;
     flex-grow: 0;
@@ -73,12 +69,8 @@
     text-align: left;
     color: #212121;
   }
-  .corpo{
-    font-size: 24px;
-    font-weight: bold;
-  }
 
-  .sadsd {
+  .form {
     width: 131px;
     height: 24px;
     flex-grow: 0;
@@ -94,7 +86,7 @@
     color: #ff4f00;
   }
 
-  .Rectangle-596 {
+  .input {
     width: 350px;
     height: 25px;
     flex-grow: 0;
@@ -125,7 +117,7 @@
     border-radius: 10px;
   }
 
-  .Rectangle-2 {
+  .button {
     width: 141px;
     height: 50px;
     flex-grow: 0;
@@ -135,11 +127,11 @@
     background-color: #ff4f00;
   }
 
-  .Avanar {
+  .avancar {
     width: 72px;
     height: 13px;
     flex-grow: 0;
-    padding: 16px 0px 0px 10px;
+    padding: 20px 0px 0px 10px;
     margin: 26px 0px 5px 12px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
@@ -153,7 +145,7 @@
     text-decoration: none;
   }
 
-  .Vector {
+  .vector_white {
     width: 11px;
     height: 21px;
     flex-grow: 0;
@@ -163,23 +155,21 @@
     background-color: #ffffff;
   }
 
-  .Illustration {
-    width: 737.9px;
-    height: 507px;
-    margin: 181px 116.4px 76px 585.7px;
+  .illustration {
+    margin: -160px 0px 60px 340px;
     object-fit: contain;
   }
   
-  .Divider {
-    width: 1206px;
+  .footer {
+    width: 100%;
     height: 2px;
     flex-grow: 0;
     margin: 0 2px 12px 0;
     background-color: #cccccc;
   }
 
-  .events-2020-Todos-Direitos-Reservados {
-    width: 352px;
+  .Direitos-Reservados {
+    width: 100%;
     height: 24px;
     flex-grow: 0;
     margin: 14px 789px 3px 0;
@@ -194,6 +184,14 @@
     color: #666666;
   }
 
+  .translation {
+    flex-grow: 0;
+    margin: 3px 7px 0 0;
+    object-fit: contain;
+    text-align: right;
+    float: right;
+  }
+
   .container{
     width: 100%;
     padding: 50px 200px 100px 200px;
@@ -205,5 +203,10 @@
   }
 
   .etapas_itens{
-
+    align-self: center !important;
+    margin-left: 8px;
+    margin-right: 12px
+  }
+  .etapas_itens :last-child{
+    margin-right: 0;
   }
