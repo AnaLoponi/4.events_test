@@ -1,0 +1,209 @@
+
+.Rectangle-613 {
+    width: 1440px;
+    height: 191px;
+    flex-grow: 0;
+    margin: 0 0 80px;
+    /*padding: 65px 120px 73px;*/
+    background-color: #f3f3f3;
+  }
+
+  .Vector-laranja {
+    width: 11px;
+    height: 21px;
+    flex-grow: 0;
+    margin: 11px 36px 3px 0;
+    object-fit: contain;
+    background-color: #ff4f00;
+  }
+
+  .Criar-evento {
+    width: 202px;
+    height: 35px;
+    flex-grow: 0;
+    margin: 0 0 0 36px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3f3f3f;
+  }
+
+  .Etapas{
+    width: 760px;
+    height: 53px;
+    display: inline;
+    margin: 0 161px 0 30px;
+    padding: 11px 71px 12px 19px;
+    background-color: #ffffff;
+  }
+  
+  .Group-112 {
+    width: 30px;
+    height: 30px;
+    flex-grow: 0;
+    margin: 0 12px 0 0;
+    object-fit: contain;
+  }
+
+  .Group-121 {
+    width: 30px;
+    height: 30px;
+    flex-grow: 0;
+    margin: 0 12px 0 0;
+    object-fit: contain;
+  }
+
+  .titulo {
+    width: 591px;
+    height: 142px;
+    flex-grow: 0;
+    margin: 0 0 42px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #212121;
+  }
+  .corpo{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .sadsd {
+    width: 131px;
+    height: 24px;
+    flex-grow: 0;
+    margin: 0 219px 5px 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #ff4f00;
+  }
+
+  .Rectangle-596 {
+    width: 350px;
+    height: 25px;
+    flex-grow: 0;
+    margin: 5px 0 0;
+    padding: 0px 0px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 4px 10px 20px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #ff4f00;
+    background-color: #ffffff;
+  }
+
+  .field-text {
+    width: 100%;
+    height: 24px;
+    flex-grow: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #666666;
+    padding: 24px 24px 24px 24px;
+    box-shadow: 4px 10px 20px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #ff4f00;
+    border-radius: 10px;
+  }
+
+  .Rectangle-2 {
+    width: 141px;
+    height: 50px;
+    flex-grow: 0;
+    margin: 29px 0 0 8px;
+    padding: 0px 0px 0px 16px;
+    border-radius: 12px;
+    background-color: #ff4f00;
+  }
+
+  .Avanar {
+    width: 72px;
+    height: 13px;
+    flex-grow: 0;
+    padding: 16px 0px 0px 10px;
+    margin: 26px 0px 5px 12px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .Vector {
+    width: 11px;
+    height: 21px;
+    flex-grow: 0;
+    margin: 0 0 0 8px;
+    object-fit: contain;
+    transform: rotate(-180deg);
+    background-color: #ffffff;
+  }
+
+  .Illustration {
+    width: 737.9px;
+    height: 507px;
+    margin: 181px 116.4px 76px 585.7px;
+    object-fit: contain;
+  }
+  
+  .Divider {
+    width: 1206px;
+    height: 2px;
+    flex-grow: 0;
+    margin: 0 2px 12px 0;
+    background-color: #cccccc;
+  }
+
+  .events-2020-Todos-Direitos-Reservados {
+    width: 352px;
+    height: 24px;
+    flex-grow: 0;
+    margin: 14px 789px 3px 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #666666;
+  }
+
+  .container{
+    width: 100%;
+    padding: 50px 200px 100px 200px;
+  }
+
+  .FormInput{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .etapas_itens{
+
+  }
