@@ -1,9 +1,20 @@
+.Adaptar-esta-tela {
+  width: 100%;
+  height: 100%;
+  padding: 0 0 27px;
+  background-color: #ffffff;
+}
+/*   
+  .container{
+    width: 100%;
+    padding: 50px 50px 100px 50px;
+  } */
 
 .menu {
     width: 100%;
     height: 200px;
     flex-grow: 0;
-    margin: 0 0 80px;
+    margin: 0 0 50px;
     background-color: #f3f3f3;
   }
 
@@ -11,7 +22,7 @@
     width: 202px;
     height: 35px;
     flex-grow: 0;
-    margin: 0 0 0 36px;
+    margin: 0 0 0 20px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 38px;
     font-weight: bold;
@@ -27,8 +38,8 @@
     max-width: 100%;
     display: flex;
     flex-wrap: wrap;
-    margin: 0px 0px 24px 30px;
-    padding: 11px 71px 12px 19px;
+    margin: 0px 0px 24px 20px;
+    padding: 11px 10px 12px 10px;
     background-color: #ffffff;
     border-radius: 40px;
     font-family: 'Titillium Web', sans-serif;
@@ -38,20 +49,15 @@
     flex-grow: 1;
   }
   
-  .Group-112 {
-    width: 30px;
-    height: 30px;
+  .etapas_itens{
+    align-self: center !important;
+    margin-left: 20px;
+    margin-right: 12px;
     flex-grow: 0;
-    margin: 0 12px 0 0;
-    object-fit: contain;
+    object-fit: contain
   }
-
-  .Group-121 {
-    width: 30px;
-    height: 30px;
-    flex-grow: 0;
-    margin: 0 12px 0 0;
-    object-fit: contain;
+  .etapas_itens :last-child{
+    margin-right: 0;
   }
 
   .text-title {
@@ -68,6 +74,11 @@
     letter-spacing: normal;
     text-align: left;
     color: #212121;
+  }
+
+  .FormInput{
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .form {
@@ -192,21 +203,4 @@
     float: right;
   }
 
-  .container{
-    width: 100%;
-    padding: 50px 200px 100px 200px;
-  }
-
-  .FormInput{
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .etapas_itens{
-    align-self: center !important;
-    margin-left: 8px;
-    margin-right: 12px
-  }
-  .etapas_itens :last-child{
-    margin-right: 0;
-  }
+ 
