@@ -4,25 +4,21 @@
   padding: 0 0 27px;
   background-color: #ffffff;
 }
-/*   
-  .container{
-    width: 100%;
-    padding: 50px 50px 100px 50px;
-  } */
 
 .menu {
     width: 100%;
     height: 200px;
     flex-grow: 0;
-    margin: 0 0 50px;
+    margin: 0px 0 50px;
     background-color: #f3f3f3;
+    padding: 40px;
   }
 
   .criar-evento {
     width: 202px;
     height: 35px;
     flex-grow: 0;
-    margin: 0 0 0 20px;
+    margin: 20px 0 0 20px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 38px;
     font-weight: bold;
@@ -36,6 +32,7 @@
 
   .etapas{
     max-width: 100%;
+    height: 50px;
     display: flex;
     flex-wrap: wrap;
     margin: 0px 0px 24px 20px;
@@ -132,7 +129,7 @@
     width: 141px;
     height: 50px;
     flex-grow: 0;
-    margin: 29px 0 0 8px;
+    margin: 30px 0 0 8px;
     padding: 0px 0px 0px 16px;
     border-radius: 12px;
     background-color: #ff4f00;
@@ -142,8 +139,7 @@
     width: 72px;
     height: 13px;
     flex-grow: 0;
-    padding: 20px 0px 0px 10px;
-    margin: 26px 0px 5px 12px;
+    padding: 0 0 30 15px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -160,10 +156,8 @@
     width: 11px;
     height: 21px;
     flex-grow: 0;
-    margin: 0 0 0 8px;
     object-fit: contain;
     transform: rotate(-180deg);
-    background-color: #ffffff;
   }
 
   .illustration {
@@ -183,7 +177,6 @@
     width: 100%;
     height: 24px;
     flex-grow: 0;
-    margin: 14px 789px 3px 0;
     font-family: 'Titillium Web', sans-serif;
     font-size: 16px;
     font-weight: normal;
